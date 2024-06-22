@@ -1,4 +1,47 @@
-site_name: Site
+site_name: Maggie Reiter
 site_url: https://maggiereiter.com/
 theme:
   name: material
+  features:
+    - navigation.expand
+    - navigation.footer
+    - navigation.indexes
+    - navigation.instant
+    - navigation.instant.prefetch
+    - navigation.instant.progress
+    - navigation.sections
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.tracking
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      accent: indigo
+      primary: custom
+      toggle:
+        icon: material/weather-sunny 
+        name: Switch to dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      accent: indigo
+      primary: custom
+      toggle:
+        icon: material/weather-night
+        name: Switch to light mode
+  nav:
+  - Home: index.md
+  - Talks: talks.md
+extra:
+  analytics:
+    provider: google
+    property: G-CB4YN3WN9M
+  social:
+    - icon: fontawesome/brands/github 
+      link: https://github.com/maggie-reiter
+    - icon: fontawesome/brands/x-twitter
+      link: https://x.com/maggie_reiter
+    - icon: fontawesome/brands/linkedin 
+      link: https://www.linkedin.com/in/maggie-reiter-2b51bb1b4/
+extra_css:
+  - stylesheets/extra.css
+copyright: Copyright &copy; 2024 Maggie Reiter
