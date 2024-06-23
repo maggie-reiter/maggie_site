@@ -28,6 +28,8 @@ theme:
       toggle:
         icon: material/weather-night
         name: Switch to light mode
+  font:
+    text: B612
   nav:
   - Home: index.md
   - Talks: talks.md
