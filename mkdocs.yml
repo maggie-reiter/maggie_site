@@ -15,24 +15,26 @@ theme:
     - navigation.tracking
   palette:
     - media: "(prefers-color-scheme: light)"
-      scheme: default
-      accent: indigo
+      scheme: custom
+      accent: custom
       primary: custom
       toggle:
         icon: material/weather-sunny 
         name: Switch to dark mode
     - media: "(prefers-color-scheme: dark)"
       scheme: slate
-      accent: indigo
+      accent: custom
       primary: custom
       toggle:
         icon: material/weather-night
         name: Switch to light mode
   font:
-    text: B612
+    text: Noto Sans
+    code: Roboto Mono
   nav:
   - Home: index.md
   - Talks: talks.md
+  - Projects: projects.md
 extra:
   analytics:
     provider: google
