@@ -35,6 +35,7 @@ theme:
   - Home: index.md
   - Talks: talks.md
   - Projects: projects.md
+  favicon: null
 extra:
   analytics:
     provider: google
@@ -46,6 +47,9 @@ extra:
       link: https://x.com/maggie_reiter
     - icon: fontawesome/brands/linkedin 
       link: https://www.linkedin.com/in/maggie-reiter-2b51bb1b4/
+markdown_extensions: 
+  - attr_list
+  - md_in_html
 extra_css:
   - stylesheets/extra.css
 copyright: Copyright &copy; 2024 Maggie Reiter
