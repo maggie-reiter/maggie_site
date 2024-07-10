@@ -12,8 +12,7 @@ hide:
 
     ---
 
-    #
-    #
+    Understand impact of golf footwear, climate, and management practices on putting green surface disruption
 
 </div>
 
@@ -23,7 +22,7 @@ hide:
 
     ---
 
-    #
-    #
+    Examine health outcomes at the intersections of multiple social factors measured in the 
+    California Healthy Kids Survey
 
 </div>
