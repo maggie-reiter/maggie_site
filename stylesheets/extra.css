@@ -1,0 +1,18 @@
+.md-grid {
+    max-width: 1000px; 
+  }
+
+:root {
+    --md-primary-fg-color: #034AA6;
+    --md-default-fg-color: #000000;
+    --md-accent-fg-color: #034AA6;
+}
+
+/* Dark mode */
+[data-md-color-scheme="slate"] {
+    --md-default-fg-color: #D9DBDA;
+}
+
+h1 {
+  color: var(--md-default-fg-color) !important;
+}
